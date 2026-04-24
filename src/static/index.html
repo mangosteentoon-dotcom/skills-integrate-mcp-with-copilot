@@ -10,6 +10,7 @@
     <header>
       <h1>Mergington High School</h1>
       <h2>Extracurricular Activities</h2>
+      <div id="user-icon">👤</div>
     </header>
 
     <main>
@@ -44,6 +45,17 @@
     <footer>
       <p>&copy; 2026 Mergington High School</p>
     </footer>
+
+    <div id="login-modal" class="hidden">
+      <div class="modal-content">
+        <h3>Teacher Login</h3>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button id="login-btn">Login</button>
+        <button id="cancel-btn">Cancel</button>
+        <div id="login-message"></div>
+      </div>
+    </div>
 
     <script src="app.js"></script>
   </body>
